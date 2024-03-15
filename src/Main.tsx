@@ -13,7 +13,7 @@ const Main = () => {
         
         <div>
             
-            <h1>Hello 4450 class, framework for  joyui  Home</h1>
+            <h1>Hello, use this as a framework for  joyui  Home</h1>
 
             <Link to="about">Fabricjs</Link> <br />
             <Link to="about">Price</Link>
