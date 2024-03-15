@@ -1,25 +1,30 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
 import Fabricjs from "./Fabricjs";
+import Price from "./Price";
+import Main from "./Main";
+
 import {
   createBrowserRouter,
   RouterProvider,
-  Link,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <div>
-        <h1>Home</h1>
-        <Link to="about">Fabricjs</Link>
-      </div>
+     <Main/>
     ),
   },
+  
   {
     path: "about",
     element: <Fabricjs />
+  },
+
+  {
+    path: "price",
+    element: <Price />
   },
 ]);
 
