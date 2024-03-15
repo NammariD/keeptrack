@@ -1,6 +1,6 @@
 //** Import react
-import { useEffect, useCallback } from 'react';
-import * as fabric from '@boardxus/x-canvas';
+//import { useEffect, useCallback } from 'react';
+//import * as fabric from '@boardxus/x-canvas';
 
 import {
   Link,
