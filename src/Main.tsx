@@ -10,13 +10,21 @@ const Main = () => {
 
 
     return <>
-        
-        <div>
-            
-            <h1>Hello, use this as a framework for  joyui  Home</h1>
 
-            <Link to="about">Fabricjs</Link> <br />
-            <Link to="about">Price</Link>
+        <div>
+
+            <h1>Hello, use this as a framework for  joyui  Home</h1>
+            <ul>
+                <li>
+                    <Link to="reactcanvas">React + HTML canvas</Link> </li>
+                <li>
+
+                    <Link to="fabricjs">Fabricjs</Link> </li>
+                <li>
+                    <Link to="price">Price</Link>
+                </li>
+
+            </ul>
         </div>
 
 

@@ -10,10 +10,16 @@ const Price = () => {
 
 
     return <>
-
-        <Link to="/">Fabric</Link><br />
-        <Link to="/">Price</Link>
-
+<div>
+    
+<div>
+            testing
+            </div>
+ <Link to="/main">Main</Link> <br/>
+ 
+        <Link to="/fabricjs">Fabric</Link><br/>
+        
+        </div>   
 
 
     </>

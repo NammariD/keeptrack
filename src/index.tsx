@@ -3,6 +3,8 @@ import { createRoot } from "react-dom/client";
 import Fabricjs from "./Fabricjs";
 import Price from "./Price";
 import Main from "./Main";
+import ReactCanvas from "./ReactCanvas";
+
 
 import {
   createBrowserRouter,
@@ -17,8 +19,13 @@ const router = createBrowserRouter([
     ),
   },
   
+  {path:"/reactcanvas",
+  element: (
+    <ReactCanvas/>
+   ),
+  },
   {
-    path: "about",
+    path: "fabricjs",
     element: <Fabricjs />
   },
 
